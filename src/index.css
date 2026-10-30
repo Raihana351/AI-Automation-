@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #05060A;
+    color: #F1F5F9;
+    overflow-x: hidden;
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #05060A;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
+
+/* 3D Canvas styles */
+.canvas-container {
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+}

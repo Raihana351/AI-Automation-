@@ -1,0 +1,6 @@
+{
+  "name": "NEXORA AI — Intelligence at the Speed of Ideas",
+  "description": "Next-generation 3D AI platform for autonomous workflow orchestration, real-time intelligence, and scalable AI infrastructure.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
